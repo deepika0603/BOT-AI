@@ -3,7 +3,7 @@ import NavBar from "../../components/Navbar/Navbar";
 import InitialChat from '../../components/InitialChat/InitialChat';
 import ChatInput from '../../components/ChatInput/ChatInput';
 import ChattingCard from '../../components/ChattingCard/ChattingCard';
-//import FeedbackModal from '../../components/FeedbackModal/FeedbackModal';
+import FeedbackModal from '../../components/FeedbackModal/FeedbackModal';
 import { useEffect, useRef, useState } from 'react';
 import data from '../../aiData/sampleData.json'
 import { useOutletContext } from "react-router-dom";
