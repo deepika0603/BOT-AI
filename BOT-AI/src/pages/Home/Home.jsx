@@ -1,4 +1,8 @@
 import NavBar from "../../components/Navbar/Navbar"
+import { Box, Stack, Typography } from '@mui/material';
+import InitialChat from '../../components/InitialChat/InitialChat';
+//import ChatInput from '../../components/ChatInput/ChatInput';
+
 import { useContext } from 'react';
 import { ThemeContext } from '../../theme/ThemeContext';
 
